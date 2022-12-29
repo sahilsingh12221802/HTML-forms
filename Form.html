@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title>Form 2</title>
+<style>
+input{
+margin: 8px 8px 8px 8px;
+width:80%;
+padding:12px;
+background-color:divsmoke;
+}
+
+</style>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Feedback</legend>
+Name: <input type="text"/><br>
+Rollno: <input type="Number"/><br>
+Password: <input type="password"/><br>
+Email: <input type="email"/><br>
+Range: <input type="range"/><br>
+<label for="dropdown">State</label>
+<select name="dropdown">
+<option value="AP" selected>Andhra Pradesh</option>
+<option value="PB">Punjab</option>
+<option value="JK">Jammu And Kashmir</option>
+<option value="MP" selected>Madhya Pradesh</option> 
+</select><br>
+<label for="message">Message</label>
+<textarea name="message" rows="10" cols="50"> </textarea><br>
+<input type="file" accept="/image">
+<input type="submit"/><br>
+<input type="reset"/><br>
+</fieldset> 
+</form>
+</body>
+</html>
